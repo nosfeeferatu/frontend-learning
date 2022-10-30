@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+body{
+    margin: 0;
+    background-color: #e4eaf1;
+    color: rgb(37, 35, 35);
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero{
+    background-image: url('images/Benedict-Cumberbatch-2014.jpg');
+    background-size: cover;
+    height: 730px;
+}
+
+.hero::before{
+    content: linear-gradient(#fff0,#0008);
+    height: 750px;
+    z-index: 2;
+}
+
+.hero h1{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: -150px;
+    font-size: 6rem;
+    text-align: center;
+    z-index: 5;
+}
+
+h2, h3 {
+    text-align: center;
+    color: white;
+    background-color: #0a1b2f;
+    margin: 0;
+    padding: 20px;
+}
+
+p{
+    padding: 5px 80px;
+    text-align: justify;
+}
+
+button {
+    border: 0;
+    color: white;
+    background-color: #0a1b2f;
+    padding: 10px 20px;
+    margin: 10px 45% 30px;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 2rem;
+}
+
+button:hover{
+    background-color: #154378;
+}
+
+ul, ol{
+    list-style: none;
+    text-align: center;
+    padding: 30px;
+}
+
+ol{
+    padding-top: 20px;
+}
+
+ul li{
+    display: inline;
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: 2px solid #0a1b2f;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+
+ol li{
+    padding: 5px;
+}
+
+#four{
+    font-size: 17px;
+}
+
+#three {
+    font-size: 30px;
+}
+
+#two {
+    font-size: 40px;
+}
+
+#one {
+    font-size: 50px;
+    font-weight: 700;
+}
