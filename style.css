@@ -12,6 +12,7 @@ body{
 
 }
 
+
 .hero{
     background-image: url('images/Benedict-Cumberbatch-2014.jpg');
     background-size: cover;
@@ -153,4 +154,77 @@ ol li{
 
 .table-section{
     padding: 30px;
+}
+
+/* NAVBAR */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #111828;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.nav-logo img{
+    width: 80px;
+    background-color: #e4eaf1;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.nav-links{
+    padding: 0;
+}
+
+.nav-links li{
+    border: 0px;
+}
+
+.nav-links li>a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: var(--dark-color);
+    color: whitesmoke;
+    justify-content: space-around;
+}
+
+footer div:first-child{
+    align-self: center;
+    background-color: #e4eaf1;
+    border-radius: 5px;
+}
+
+footer img{
+    width: 120px;
+    padding: 5px;   
+}
+
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+footer a:hover{
+    color: aqua;
+}
+
+.footer-links a::before{
+    content: "> ";
+}    
+
+footer ul{
+    padding: 0;
+}
+
+footer ul li{
+    border: 0;
+    display: block;
+    text-align: start;
 }
