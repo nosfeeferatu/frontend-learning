@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Movies Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header class="navbar">
+            <div class="nav-logo">
+                <img src="images/logo.png">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </header>
+        <section class="inner-hero">
+            <h1>FEEDBACK</h1>
+        </section>
+
+        <!-- Form -->
+        <section class="form-section">
+            <form>
+                <div>
+                    <label for="name">Your Name: </label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="dob">Date of Birth: </label>
+                    <input type="date" name="dob" id="dob">
+                </div>
+                <div>
+                    <label>Your Gender: </label>
+                    <select name="gender">
+                        <option value="" selected disabled>Select an option</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                        <option value="prefer-not-say">Prefer Not To Say</option>
+                    </select>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Do you like Benedict Cumberbatch?</legend>
+                        <input type="radio" name="like" value="yes" id="yes">
+                        <label for="yes">Yes</label>
+                        <input type="radio" name="like" value="no" id="no">
+                        <label for="no">No</label>
+                        <input type="radio" name="like" value="no-opinion" id="no-opinion">
+                        <label for="no-opinion">No Opinion</label>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Which of these movies have you watched?</legend>
+                        <input type="checkbox" name="watched" id="drstrange">
+                        <label for="drstrange">Doctor Strange</label>
+                        <input type="checkbox" name="watched" id="sherlock">
+                        <label for="drstrange">Sherlock</label>
+                        <input type="checkbox" name="watched" id="infinitywar">
+                        <label for="infinitywar">Avengers: Infinity War</label>
+                        <input type="checkbox" name="watched" id="imitationgame">
+                        <label for="imitationgame">The Imitation Game</label>
+                    </fieldset>  
+                </div>
+                <div>
+                    <label>Your Comments: </label>
+                    <textarea rows="3"></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Send Feedback">
+                </div>
+            </form>
+        </section>
+
+        <footer>
+            <div>
+                <img src="images/logo.png">
+            </div>
+            <div class="footer-links">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="movies.html">Movies</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Socials</h4>
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="https://twitter.com/cumberbitches">Benedict Cumberbatch</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-at"></i>
+                        <a href="mailto:benedict@gmail.com">benedict@gmail.com</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="tel:9890471829">9890471829</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

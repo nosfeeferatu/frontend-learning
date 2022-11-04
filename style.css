@@ -228,3 +228,15 @@ footer ul li{
     display: block;
     text-align: start;
 }
+
+/* FEEDBACK */
+.form-section{
+    padding: 90px 50px 30px;
+    background-color: var(--dark-color);
+}
+
+form{
+    background-color: #e4eaf1;
+    padding: 20px;
+    border-radius: 10px;
+}
