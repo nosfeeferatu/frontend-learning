@@ -164,6 +164,8 @@ ol li{
     background-color: #111828;
     align-items: center;
     padding: 0 30px;
+    position: sticky;
+    top: 0;
 }
 
 .nav-logo img{
